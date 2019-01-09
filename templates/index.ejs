@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>#PDF.generator</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="public/images/favicon.png" type="image/png">
+	<link rel='stylesheet' href="public/stylesheets/style.css" />
+</head>
+<body>
+	<main>
+		<section id="files">
+			<h2>html filse's list:</h2>
+			<ul><% files.forEach((file) => { %>
+
+				<li><span><%=file%></span><button>pdf</button></li>
+
+			<% }); %></ul>
+		</section>
+	</main>
+	<script src="public/javascripts/main.js" type="module"></script>
+</body>
+</html>

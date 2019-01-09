@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	list-style-type: none;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+    font-family: sans-serif;
+}
+#error404 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+    text-align: center;
+}
+#error404 h2 {
+	color: #e43c1e;
+	font-size: 350%;
+	font-weight: bold;
+}
+#error404 p {
+	margin-bottom: 10px;
+}
+#error404 a {
+	color: #e43c1e;
+	text-decoration: none;
+}
+#error404 a:hover {
+	text-decoration: underline;
+}
+
+#files {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+    width: 50%;
+}
+#files h2 {
+	margin-bottom: 25px;
+	color: #e43c1e;
+	font-weight: normal;
+	text-align: center;
+}
+#files li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	        -webkit-box-orient: horizontal;
+	margin-bottom: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+#files li span {
+ 	-webkit-box-flex: 3;
+    -ms-flex-positive: 3;
+        flex-grow: 3; 
+	/*display: block;*/
+	/*width: 200px;*/
+	text-align: center;
+}
+#files li button {
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	padding: 5px 25px;
+	cursor: pointer;
+}

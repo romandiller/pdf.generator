@@ -1,0 +1,19 @@
+{
+	"name" : "pdf.localhost",
+	"port" : 5000,
+	"secret" : "",
+	"mySql" : {
+		"host" : "",
+		"user" : "",
+		"password" : "",
+		"name" : ""
+	},
+	"mongo" : {
+		"url" : "mongodb://localhost:27017",
+		"name" : "argentina"
+	},
+	"telegram" : {
+		"botName" : "",
+		"token" : ""
+	}
+}
